@@ -4,3 +4,14 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+alpm = "5.0.2"
+alpm-db = "0.2.2"
+alpm-utils = "5.0.0"
+anyhow = "1.0.102"
+bitflags = "2.11.1"
+libarchive2 = "0.2.1"
+libc = "0.2.186"
+log = "0.4.30"
+ostree-ext = { git = "https://github.com/containers/bootc", rev = "b76d75d6024bd0aa0f270ff181807aff4209f9c9" }
+pacmanconf = "3.1.0"
+
